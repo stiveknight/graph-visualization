@@ -1,0 +1,529 @@
+{
+  "nodes": [
+    {
+      "id": -886190806,
+      "label": "file1",
+      "description": "test description",
+      "node_type": null,
+      "value": null
+    },
+    {
+      "id": -1285185483,
+      "label": "DosHeader",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "Structure": "IMAGE_DOS_HEADER",
+        "e_magic": {
+          "value": "0x5a4d",
+          "file_offset": "0x0",
+          "offset": "0x0",
+          "description": ""
+        },
+        "e_cblp": {
+          "value": "0x50",
+          "file_offset": "0x2",
+          "offset": "0x2",
+          "description": ""
+        },
+        "e_cp": {
+          "value": "0x2",
+          "file_offset": "0x4",
+          "offset": "0x4",
+          "description": ""
+        },
+        "e_crlc": {
+          "value": "0x0",
+          "file_offset": "0x6",
+          "offset": "0x6",
+          "description": ""
+        },
+        "e_cparhdr": {
+          "value": "0x4",
+          "file_offset": "0x8",
+          "offset": "0x8",
+          "description": ""
+        },
+        "e_minalloc": {
+          "value": "0xf",
+          "file_offset": "0xa",
+          "offset": "0xa",
+          "description": ""
+        },
+        "e_maxalloc": {
+          "value": "0xffff",
+          "file_offset": "0xc",
+          "offset": "0xc",
+          "description": ""
+        },
+        "e_ss": {
+          "value": "0x0",
+          "file_offset": "0xe",
+          "offset": "0xe",
+          "description": ""
+        },
+        "e_sp": {
+          "value": "0xb8",
+          "file_offset": "0x10",
+          "offset": "0x10",
+          "description": ""
+        },
+        "e_csum": {
+          "value": "0x0",
+          "file_offset": "0x12",
+          "offset": "0x12",
+          "description": ""
+        },
+        "e_ip": {
+          "value": "0x0",
+          "file_offset": "0x14",
+          "offset": "0x14",
+          "description": ""
+        },
+        "e_cs": {
+          "value": "0x0",
+          "file_offset": "0x16",
+          "offset": "0x16",
+          "description": ""
+        },
+        "e_lfarlc": {
+          "value": "0x40",
+          "file_offset": "0x18",
+          "offset": "0x18",
+          "description": ""
+        },
+        "e_ovno": {
+          "value": "0x1a",
+          "file_offset": "0x1a",
+          "offset": "0x1a",
+          "description": ""
+        },
+        "e_res": {
+          "value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+          "file_offset": "0x1c",
+          "offset": "0x1c",
+          "description": ""
+        },
+        "e_oemid": {
+          "value": "0x0",
+          "file_offset": "0x24",
+          "offset": "0x24",
+          "description": ""
+        },
+        "e_oeminfo": {
+          "value": "0x0",
+          "file_offset": "0x26",
+          "offset": "0x26",
+          "description": ""
+        },
+        "e_res2": {
+          "value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+          "file_offset": "0x28",
+          "offset": "0x28",
+          "description": ""
+        },
+        "e_lfanew": {
+          "value": "0x100",
+          "file_offset": "0x3c",
+          "offset": "0x3c",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -3130352,
+      "label": "DosStub",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "dos_stub": "b'\\xba\\x10\\x00\\x0e\\x1f\\xb4\\t\\xcd!\\xb8\\x01L\\xcd!\\x90\\x90This program must be run under Win32\\r\\n$7\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"
+      }
+    },
+    {
+      "id": -1536555101,
+      "label": "Structure",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "Structure",
+        "value": "IMAGE_DOS_HEADER"
+      }
+    },
+    {
+      "id": -2102725998,
+      "label": "e_magic",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_magic",
+        "value": {
+          "value": "0x5a4d",
+          "file_offset": "0x0",
+          "offset": "0x0",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 1092782806,
+      "label": "e_cblp",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_cblp",
+        "value": {
+          "value": "0x50",
+          "file_offset": "0x2",
+          "offset": "0x2",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -766432390,
+      "label": "e_cp",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_cp",
+        "value": {
+          "value": "0x2",
+          "file_offset": "0x4",
+          "offset": "0x4",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1929322210,
+      "label": "e_crlc",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_crlc",
+        "value": {
+          "value": "0x0",
+          "file_offset": "0x6",
+          "offset": "0x6",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1365712275,
+      "label": "e_cparhdr",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_cparhdr",
+        "value": {
+          "value": "0x4",
+          "file_offset": "0x8",
+          "offset": "0x8",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1588499299,
+      "label": "e_minalloc",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_minalloc",
+        "value": {
+          "value": "0xf",
+          "file_offset": "0xa",
+          "offset": "0xa",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1040379758,
+      "label": "e_maxalloc",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_maxalloc",
+        "value": {
+          "value": "0xffff",
+          "file_offset": "0xc",
+          "offset": "0xc",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 283962013,
+      "label": "e_ss",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_ss",
+        "value": {
+          "value": "0x0",
+          "file_offset": "0xe",
+          "offset": "0xe",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1523835221,
+      "label": "e_sp",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_sp",
+        "value": {
+          "value": "0xb8",
+          "file_offset": "0x10",
+          "offset": "0x10",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 541159033,
+      "label": "e_csum",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_csum",
+        "value": {
+          "value": "0x0",
+          "file_offset": "0x12",
+          "offset": "0x12",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -754618447,
+      "label": "e_ip",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_ip",
+        "value": {
+          "value": "0x0",
+          "file_offset": "0x14",
+          "offset": "0x14",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1590896895,
+      "label": "e_cs",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_cs",
+        "value": {
+          "value": "0x0",
+          "file_offset": "0x16",
+          "offset": "0x16",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -190202428,
+      "label": "e_lfarlc",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_lfarlc",
+        "value": {
+          "value": "0x40",
+          "file_offset": "0x18",
+          "offset": "0x18",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1064688042,
+      "label": "e_ovno",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_ovno",
+        "value": {
+          "value": "0x1a",
+          "file_offset": "0x1a",
+          "offset": "0x1a",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -42108375,
+      "label": "e_res",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_res",
+        "value": {
+          "value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+          "file_offset": "0x1c",
+          "offset": "0x1c",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": 1199244111,
+      "label": "e_oemid",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_oemid",
+        "value": {
+          "value": "0x0",
+          "file_offset": "0x24",
+          "offset": "0x24",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -535790624,
+      "label": "e_oeminfo",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_oeminfo",
+        "value": {
+          "value": "0x0",
+          "file_offset": "0x26",
+          "offset": "0x26",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1969303787,
+      "label": "e_res2",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_res2",
+        "value": {
+          "value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+          "file_offset": "0x28",
+          "offset": "0x28",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": -1840670277,
+      "label": "e_lfanew",
+      "description": "",
+      "node_type": "main",
+      "value": {
+        "name": "e_lfanew",
+        "value": {
+          "value": "0x100",
+          "file_offset": "0x3c",
+          "offset": "0x3c",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": -886190806,
+      "target": -1285185483,
+      "cause": "test_cause"
+    },
+    {
+      "source": -886190806,
+      "target": -3130352
+    },
+    {
+      "source": -1285185483,
+      "target": -1536555101
+    },
+    {
+      "source": -1285185483,
+      "target": -2102725998
+    },
+    {
+      "source": -1285185483,
+      "target": 1092782806
+    },
+    {
+      "source": -1285185483,
+      "target": -766432390
+    },
+    {
+      "source": -1285185483,
+      "target": -1929322210
+    },
+    {
+      "source": -1285185483,
+      "target": -1365712275
+    },
+    {
+      "source": -1285185483,
+      "target": -1588499299
+    },
+    {
+      "source": -1285185483,
+      "target": -1040379758
+    },
+    {
+      "source": -1285185483,
+      "target": 283962013
+    },
+    {
+      "source": -1285185483,
+      "target": -1523835221
+    },
+    {
+      "source": -1285185483,
+      "target": 541159033
+    },
+    {
+      "source": -1285185483,
+      "target": -754618447
+    },
+    {
+      "source": -1285185483,
+      "target": -1590896895
+    },
+    {
+      "source": -1285185483,
+      "target": -190202428
+    },
+    {
+      "source": -1285185483,
+      "target": -1064688042
+    },
+    {
+      "source": -1285185483,
+      "target": -42108375
+    },
+    {
+      "source": -1285185483,
+      "target": 1199244111
+    },
+    {
+      "source": -1285185483,
+      "target": -535790624
+    },
+    {
+      "source": -1285185483,
+      "target": -1969303787
+    },
+    {
+      "source": -1285185483,
+      "target": -1840670277
+    }
+  ]
+}

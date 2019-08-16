@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="json-viewer.js"></script>
+<link rel="stylesheet" href="json-viewer.css">
+
+
+
+<style>
+
+.link {
+  stroke: #aaa;
+}
+
+.node text {
+font-family: "Courier New";
+stroke:#333;
+cursos:pointer;
+}
+
+.node circle{
+stroke:#fff;
+stroke-width:2px;
+fill:#555;
+}
+
+.node.fixed circle {
+  fill: #b3603d;
+}
+
+
+
+#json{
+  position: absolute;
+  width: 38%;
+  
+}
+
+
+
+svg{
+  background-color:  #5f7f9e;
+  width: 60%;
+  height: 90%;
+/*   border: 1px solid #555; */
+  position: fixed;
+  
+  right: 10px;
+  border-radius: 15px;
+}
+
+</style>
+
+
+    <div id="json"></div>
+    <svg id="main" width="750" height="500"></svg>
+    <script src="script.js"></script>
+   
